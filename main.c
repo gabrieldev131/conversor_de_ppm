@@ -11,6 +11,7 @@ int main() {
   char *nomePPMsaida = refNome_saida;
   Image *ima;
 
+  //menu de opções
   while (escolha != 's') {
     printf("\n -----------------------------------------------\n");
     printf("\t\t\t\t conversor de PPM");
