@@ -4,9 +4,18 @@ Este programa foi produzido para um trabalho universitário da disciplina Estrut
 Ele é um conversor de imagem ppm (portable pix map), do qual converte imagens coloridas (tipo P3) em imagens em nivel de cinza (tipo P2). Em seu programa principal, há um menu do qual lhe dará opções, desde converter de rgb para niveis de cinza, á nomear o arquivo.
 
 Como usar:
-O primeiro menu sempre será ixibido no inicio e após cada conversão, até que seje pedido para sair
+Coloque todos os arquivos na mesma pasta, depois use os comandos "make all" e "./main" no prompt de comando (shell), nesta ordem, que o arquivo executavel será gerado e o programa será executado, respectivamente.
+
+O que será feito:
+
+O primeiro menu sempre será exibido no inicio e após cada conversão, até que seja pedido para sair
+
 O segundo menu diz respeito a qual arquivo deve ser convertido, caso não seja escolhido, uma imagem padrão será convertida como exemplo
+
 O terceiro menu diz respeito ao nome para criação do arquivo, caso não seja escolhido, a imagem convertida receberá o nome "arquivo.ppm"
+
+Caso tudo ocorra como esperado, o programa voltará ao menu inicial
+
 Caso as opções mostradas no display não sejam escolhidas, é retornada uma mensagem de erro e o programa retorna ao inicio
 
 Informações sobre a implementação:
