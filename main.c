@@ -11,7 +11,6 @@ int main() {
   char *nomePPMsaida = refNome_saida;
   Image *ima;
 
-  //menu de opções
   while (escolha != 's') {
     printf("\n -----------------------------------------------\n");
     printf("\t\t\t\t conversor de PPM");
@@ -40,8 +39,8 @@ int main() {
             printf("Opção inválida. Tente novamente.\n");
             break;
           }
-          Image *new = create(ima->rows, ima->cols, "P2");
-          Image *old = create(ima->rows, ima->cols, ima->tipo);
+          Image *new = create(rows(ima), cols(ima), tipo(ima));
+          Image *old = create(rows(ima), cols(ima), tipo(ima));
           old = load_from_ppm(nomePPMentrada);
           rgb_to_gray(old, new);
           printf("deseja nomear o arquivo? (s/n)\n");
