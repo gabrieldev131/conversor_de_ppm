@@ -1,6 +1,6 @@
 # conversor_de_imagem_ppm
 
-Este programa foi produzido para um trabalho universitário da disciplina Estrutura de Dados, sob tutoria do Prof. Thiago M. Paixão, no IFES CAMPUS SERRA.
+Este programa foi produzido para um trabalho universitário da disciplina Estrutura de Dados, sob tutoria do Prof. Thiago M. Paixão, no IFES CAMPUS SERRA, juntamente com meu colega Davi de Assis.
 Ele é um conversor de imagem ppm (portable pix map), do qual converte imagens coloridas (tipo P3) em imagens em nivel de cinza (tipo P2). Em seu programa principal, há um menu do qual lhe dará opções, desde converter de rgb para niveis de cinza, á nomear o arquivo.
 
 Como usar:
@@ -25,7 +25,3 @@ Na função load_from_ppm() tive algumas dificulcades, visto que era nescessári
 As funções write_to_ppm() e rgb_to_gray foram bem simples e não representam problemas, chegaram até serem triviais ao código, visto que a parte mais dificl eram alocar memória
 e extrair dados do arquivo.
 O arquivo main.c foi a parte que mais demandou tempo visto que para implementar o TAD haviam muitos pontos, como o menu, que deveria voltar ao inicio ao fim de cada conversão. Foram boas horas olhando a tela sem entender o motivo de não funcionar e no fim, eram alguns erros de código (lixos não apagados nas funções em image.c), dos quais foram corrigidos. No fim, vejo que foi bem mais simples que eu imaginei que seria, pricipalmente visto que o uso de ferramentas para meu auxilio (chatGPT, stackoverflow, github...) não foram tão usadas, ao menos não para o trabalho como um todo, mas sim como auxiliares para afagar-me no desespero (basicamente usei estas ferramentas para mostrar algumas funções das bibliotecas padrões e foram muito úteis para o aprendizado), mas afirmo que este programa foi feito com minhas próprias mãos.
-
-sobre o autor:
-Sou um estudante de sistemas de informação, do campus já mensionado, do qual está fazendo um trabalho de estrutura de dados.
-Eu amo a linguagem C, sendo a minha favorita dentre as outras que também sei programar.
